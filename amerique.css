@@ -1,0 +1,186 @@
+/* Reset du style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5DEB3;
+    color: black;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FDF5E6;
+    color: #F4A460;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* Tous le texte  */
+
+main {
+    padding: 20px;
+}
+
+
+
+
+.container_sommaire {
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    width: 100%; 
+    justify-content: space-evenly;
+
+}
+
+.sommaire {
+    background-color: #FDF5E6;
+    padding: 20px; /* Ajuster pour ajouter de l'espace intérieur */
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px; 
+    height: auto; 
+
+}
+
+/* Titre du sommaire*/
+
+.container_sommaire h2 {
+    color: #F4A460;
+    text-align: center;
+    margin: 0;
+
+
+
+/* Point du sommaire*/
+
+}
+
+.sommaire ul {
+    list-style-type: none;
+}
+
+.sommaire ul li {
+    margin-bottom: 10px;
+}
+
+.sommaire ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+
+}
+
+.sommaire ul li a:hover {
+    color: #4CAF50;
+}
+
+h2 {
+    color: #F4A460;
+    margin-top: 5px;
+    margin-left: 200px; 
+  
+
+}
+
+
+/* rectte=container  */
+
+
+.recette {
+    background-color:#FDF5E6;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.recette p {
+    justify-content: flex-start;
+    margin-bottom: 10px; 
+    margin-top: 5px; 
+    flex-direction: column;  
+    margin-left: 20px; 
+
+}
+
+
+/* Point des ingrédients */
+
+
+.recette ul {
+    list-style-type: disc;
+    margin-left: 100px;
+    align-items: left;  
+    justify-content: flex-start;
+}
+
+
+/* Point des instructions*/
+
+
+.recette ol {
+    list-style-type: decimal;
+    margin-left: 50px;
+
+}
+
+
+
+
+.alignement {
+
+    justify-content: flex-start;
+    flex-direction: column;  
+
+
+
+
+
+.imgage1 {
+  width: 500px; /* Tailler l'image si nécessaire */
+  height: auto;
+  margin-left: 10px; /* Ajoute un espacement entre le texte et l'image */
+  Margin-right: 10px;
+  align-items: center;  
+  
+}
+
+.imgage2 {
+  width: 400px; /* Tailler l'image si nécessaire */
+  height: auto;
+  margin-left: 10px; /* Ajoute un espacement entre le texte et l'image */
+  Margin-right: 10px;
+  align-items: center;  
+  
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+    
